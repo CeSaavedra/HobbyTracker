@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB5523352CA6FC9300FD9FF1 /* HobbyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5523342CA6FC9300FD9FF1 /* HobbyTrackerApp.swift */; };
+		DB5523372CA6FC9300FD9FF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5523362CA6FC9300FD9FF1 /* ContentView.swift */; };
+		DB5523392CA6FC9400FD9FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5523382CA6FC9400FD9FF1 /* Assets.xcassets */; };
+		DB55233C2CA6FC9400FD9FF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB55233B2CA6FC9400FD9FF1 /* Preview Assets.xcassets */; };
+		DB5523462CA6FC9400FD9FF1 /* HobbyTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5523452CA6FC9400FD9FF1 /* HobbyTrackerTests.swift */; };
+		DB5523502CA6FC9400FD9FF1 /* HobbyTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB55234F2CA6FC9400FD9FF1 /* HobbyTrackerUITests.swift */; };
+		DB5523522CA6FC9400FD9FF1 /* HobbyTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5523512CA6FC9400FD9FF1 /* HobbyTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB5523422CA6FC9400FD9FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB5523292CA6FC9300FD9FF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB5523302CA6FC9300FD9FF1;
+			remoteInfo = HobbyTracker;
+		};
+		DB55234C2CA6FC9400FD9FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB5523292CA6FC9300FD9FF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB5523302CA6FC9300FD9FF1;
+			remoteInfo = HobbyTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB5523312CA6FC9300FD9FF1 /* HobbyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5523342CA6FC9300FD9FF1 /* HobbyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyTrackerApp.swift; sourceTree = "<group>"; };
+		DB5523362CA6FC9300FD9FF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB5523382CA6FC9400FD9FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB55233B2CA6FC9400FD9FF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB5523412CA6FC9400FD9FF1 /* HobbyTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5523452CA6FC9400FD9FF1 /* HobbyTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyTrackerTests.swift; sourceTree = "<group>"; };
+		DB55234B2CA6FC9400FD9FF1 /* HobbyTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB55234F2CA6FC9400FD9FF1 /* HobbyTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyTrackerUITests.swift; sourceTree = "<group>"; };
+		DB5523512CA6FC9400FD9FF1 /* HobbyTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB55232E2CA6FC9300FD9FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB55233E2CA6FC9400FD9FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5523482CA6FC9400FD9FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB5523282CA6FC9300FD9FF1 = {
+			isa = PBXGroup;
+			children = (
+				DB5523332CA6FC9300FD9FF1 /* HobbyTracker */,
+				DB5523442CA6FC9400FD9FF1 /* HobbyTrackerTests */,
+				DB55234E2CA6FC9400FD9FF1 /* HobbyTrackerUITests */,
+				DB5523322CA6FC9300FD9FF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5523322CA6FC9300FD9FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB5523312CA6FC9300FD9FF1 /* HobbyTracker.app */,
+				DB5523412CA6FC9400FD9FF1 /* HobbyTrackerTests.xctest */,
+				DB55234B2CA6FC9400FD9FF1 /* HobbyTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5523332CA6FC9300FD9FF1 /* HobbyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				DB5523342CA6FC9300FD9FF1 /* HobbyTrackerApp.swift */,
+				DB5523362CA6FC9300FD9FF1 /* ContentView.swift */,
+				DB5523382CA6FC9400FD9FF1 /* Assets.xcassets */,
+				DB55233A2CA6FC9400FD9FF1 /* Preview Content */,
+			);
+			path = HobbyTracker;
+			sourceTree = "<group>";
+		};
+		DB55233A2CA6FC9400FD9FF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB55233B2CA6FC9400FD9FF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB5523442CA6FC9400FD9FF1 /* HobbyTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB5523452CA6FC9400FD9FF1 /* HobbyTrackerTests.swift */,
+			);
+			path = HobbyTrackerTests;
+			sourceTree = "<group>";
+		};
+		DB55234E2CA6FC9400FD9FF1 /* HobbyTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB55234F2CA6FC9400FD9FF1 /* HobbyTrackerUITests.swift */,
+				DB5523512CA6FC9400FD9FF1 /* HobbyTrackerUITestsLaunchTests.swift */,
+			);
+			path = HobbyTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB5523302CA6FC9300FD9FF1 /* HobbyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5523552CA6FC9400FD9FF1 /* Build configuration list for PBXNativeTarget "HobbyTracker" */;
+			buildPhases = (
+				DB55232D2CA6FC9300FD9FF1 /* Sources */,
+				DB55232E2CA6FC9300FD9FF1 /* Frameworks */,
+				DB55232F2CA6FC9300FD9FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HobbyTracker;
+			productName = HobbyTracker;
+			productReference = DB5523312CA6FC9300FD9FF1 /* HobbyTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB5523402CA6FC9400FD9FF1 /* HobbyTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5523582CA6FC9400FD9FF1 /* Build configuration list for PBXNativeTarget "HobbyTrackerTests" */;
+			buildPhases = (
+				DB55233D2CA6FC9400FD9FF1 /* Sources */,
+				DB55233E2CA6FC9400FD9FF1 /* Frameworks */,
+				DB55233F2CA6FC9400FD9FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB5523432CA6FC9400FD9FF1 /* PBXTargetDependency */,
+			);
+			name = HobbyTrackerTests;
+			productName = HobbyTrackerTests;
+			productReference = DB5523412CA6FC9400FD9FF1 /* HobbyTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB55234A2CA6FC9400FD9FF1 /* HobbyTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB55235B2CA6FC9400FD9FF1 /* Build configuration list for PBXNativeTarget "HobbyTrackerUITests" */;
+			buildPhases = (
+				DB5523472CA6FC9400FD9FF1 /* Sources */,
+				DB5523482CA6FC9400FD9FF1 /* Frameworks */,
+				DB5523492CA6FC9400FD9FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB55234D2CA6FC9400FD9FF1 /* PBXTargetDependency */,
+			);
+			name = HobbyTrackerUITests;
+			productName = HobbyTrackerUITests;
+			productReference = DB55234B2CA6FC9400FD9FF1 /* HobbyTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB5523292CA6FC9300FD9FF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DB5523302CA6FC9300FD9FF1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DB5523402CA6FC9400FD9FF1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DB5523302CA6FC9300FD9FF1;
+					};
+					DB55234A2CA6FC9400FD9FF1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DB5523302CA6FC9300FD9FF1;
+					};
+				};
+			};
+			buildConfigurationList = DB55232C2CA6FC9300FD9FF1 /* Build configuration list for PBXProject "HobbyTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB5523282CA6FC9300FD9FF1;
+			productRefGroup = DB5523322CA6FC9300FD9FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB5523302CA6FC9300FD9FF1 /* HobbyTracker */,
+				DB5523402CA6FC9400FD9FF1 /* HobbyTrackerTests */,
+				DB55234A2CA6FC9400FD9FF1 /* HobbyTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB55232F2CA6FC9300FD9FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB55233C2CA6FC9400FD9FF1 /* Preview Assets.xcassets in Resources */,
+				DB5523392CA6FC9400FD9FF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB55233F2CA6FC9400FD9FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5523492CA6FC9400FD9FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB55232D2CA6FC9300FD9FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5523372CA6FC9300FD9FF1 /* ContentView.swift in Sources */,
+				DB5523352CA6FC9300FD9FF1 /* HobbyTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB55233D2CA6FC9400FD9FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5523462CA6FC9400FD9FF1 /* HobbyTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5523472CA6FC9400FD9FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5523522CA6FC9400FD9FF1 /* HobbyTrackerUITestsLaunchTests.swift in Sources */,
+				DB5523502CA6FC9400FD9FF1 /* HobbyTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB5523432CA6FC9400FD9FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB5523302CA6FC9300FD9FF1 /* HobbyTracker */;
+			targetProxy = DB5523422CA6FC9400FD9FF1 /* PBXContainerItemProxy */;
+		};
+		DB55234D2CA6FC9400FD9FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB5523302CA6FC9300FD9FF1 /* HobbyTracker */;
+			targetProxy = DB55234C2CA6FC9400FD9FF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB5523532CA6FC9400FD9FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB5523542CA6FC9400FD9FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB5523562CA6FC9400FD9FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HobbyTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.HobbyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB5523572CA6FC9400FD9FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HobbyTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.HobbyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB5523592CA6FC9400FD9FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.HobbyTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HobbyTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HobbyTracker";
+			};
+			name = Debug;
+		};
+		DB55235A2CA6FC9400FD9FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.HobbyTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HobbyTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HobbyTracker";
+			};
+			name = Release;
+		};
+		DB55235C2CA6FC9400FD9FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.HobbyTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HobbyTracker;
+			};
+			name = Debug;
+		};
+		DB55235D2CA6FC9400FD9FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs.HobbyTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HobbyTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB55232C2CA6FC9300FD9FF1 /* Build configuration list for PBXProject "HobbyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5523532CA6FC9400FD9FF1 /* Debug */,
+				DB5523542CA6FC9400FD9FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5523552CA6FC9400FD9FF1 /* Build configuration list for PBXNativeTarget "HobbyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5523562CA6FC9400FD9FF1 /* Debug */,
+				DB5523572CA6FC9400FD9FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5523582CA6FC9400FD9FF1 /* Build configuration list for PBXNativeTarget "HobbyTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5523592CA6FC9400FD9FF1 /* Debug */,
+				DB55235A2CA6FC9400FD9FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB55235B2CA6FC9400FD9FF1 /* Build configuration list for PBXNativeTarget "HobbyTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB55235C2CA6FC9400FD9FF1 /* Debug */,
+				DB55235D2CA6FC9400FD9FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB5523292CA6FC9300FD9FF1 /* Project object */;
+}
