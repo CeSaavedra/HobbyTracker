@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB37AFD12CA8E36400A13FED /* HobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37AFD02CA8E36400A13FED /* HobbyView.swift */; };
+		DB37AFD32CAA37F300A13FED /* HobbyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37AFD22CAA37F300A13FED /* HobbyData.swift */; };
 		DB5523352CA6FC9300FD9FF1 /* HobbyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5523342CA6FC9300FD9FF1 /* HobbyTrackerApp.swift */; };
 		DB5523372CA6FC9300FD9FF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5523362CA6FC9300FD9FF1 /* ContentView.swift */; };
 		DB5523392CA6FC9400FD9FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5523382CA6FC9400FD9FF1 /* Assets.xcassets */; };
-		DB55233C2CA6FC9400FD9FF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB55233B2CA6FC9400FD9FF1 /* Preview Assets.xcassets */; };
 		DB5523462CA6FC9400FD9FF1 /* HobbyTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5523452CA6FC9400FD9FF1 /* HobbyTrackerTests.swift */; };
 		DB5523502CA6FC9400FD9FF1 /* HobbyTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB55234F2CA6FC9400FD9FF1 /* HobbyTrackerUITests.swift */; };
 		DB5523522CA6FC9400FD9FF1 /* HobbyTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5523512CA6FC9400FD9FF1 /* HobbyTrackerUITestsLaunchTests.swift */; };
@@ -34,11 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB37AFD02CA8E36400A13FED /* HobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyView.swift; sourceTree = "<group>"; };
+		DB37AFD22CAA37F300A13FED /* HobbyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyData.swift; sourceTree = "<group>"; };
 		DB5523312CA6FC9300FD9FF1 /* HobbyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5523342CA6FC9300FD9FF1 /* HobbyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyTrackerApp.swift; sourceTree = "<group>"; };
 		DB5523362CA6FC9300FD9FF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB5523382CA6FC9400FD9FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB55233B2CA6FC9400FD9FF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB5523412CA6FC9400FD9FF1 /* HobbyTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5523452CA6FC9400FD9FF1 /* HobbyTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyTrackerTests.swift; sourceTree = "<group>"; };
 		DB55234B2CA6FC9400FD9FF1 /* HobbyTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,18 +98,11 @@
 			children = (
 				DB5523342CA6FC9300FD9FF1 /* HobbyTrackerApp.swift */,
 				DB5523362CA6FC9300FD9FF1 /* ContentView.swift */,
+				DB37AFD22CAA37F300A13FED /* HobbyData.swift */,
+				DB37AFD02CA8E36400A13FED /* HobbyView.swift */,
 				DB5523382CA6FC9400FD9FF1 /* Assets.xcassets */,
-				DB55233A2CA6FC9400FD9FF1 /* Preview Content */,
 			);
 			path = HobbyTracker;
-			sourceTree = "<group>";
-		};
-		DB55233A2CA6FC9400FD9FF1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				DB55233B2CA6FC9400FD9FF1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		DB5523442CA6FC9400FD9FF1 /* HobbyTrackerTests */ = {
@@ -231,7 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB55233C2CA6FC9400FD9FF1 /* Preview Assets.xcassets in Resources */,
 				DB5523392CA6FC9400FD9FF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +251,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB37AFD32CAA37F300A13FED /* HobbyData.swift in Sources */,
 				DB5523372CA6FC9300FD9FF1 /* ContentView.swift in Sources */,
 				DB5523352CA6FC9300FD9FF1 /* HobbyTrackerApp.swift in Sources */,
+				DB37AFD12CA8E36400A13FED /* HobbyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
